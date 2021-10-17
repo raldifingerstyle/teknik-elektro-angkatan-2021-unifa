@@ -2,9 +2,17 @@ html {
 	position: relative;
 }
 
+h3{
+	color: black;
+}
+ 
+p{
+	color: black;
+}
 body {
 	margin-bottom: 70px;
 	margin-top: 25px;
+	color: black;
 }
 .jumbotron {
 	background: url(../img/header.jpg); 
@@ -17,7 +25,7 @@ body {
 }
 
 hr {
-	border-top: 4px solid #333;
+	border-top: 4px solid rgb(23, 196, 32);
 	width: 250px;
 }
 
@@ -26,14 +34,15 @@ section {
 }
 
 .portfolio {
-	background: #eee;
+	background: rgb(0, 0, 0);
 }
 
 .contact {
 	min-height: 600px;
 }
 
-footer {position: absolute;
+footer {
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 	height: 70px;
