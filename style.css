@@ -1,0 +1,70 @@
+body {
+    background: url(img/bg.jpeg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    }
+
+    hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: 400px;
+        margin-right: 400px;
+        border-style: inset;
+        border-width: 1px;
+        }
+    
+
+
+blockquote {
+
+    max-width: 500px;
+   
+    margin: 0;
+   
+    width: 100%;
+   
+    padding: 40px 70px;
+   
+    background: #141414;
+    opacity: 0.5;
+   
+      
+   
+    position: relative;
+   
+   }
+   
+   blockquote::before,
+   
+   blockquote::after {
+   
+    font-size: 350%;
+   
+    font-family: arial;
+   
+    display:block;
+   
+    position: absolute;
+   
+   }
+   
+   blockquote::before {
+   
+    content: open-quote;
+   
+    left: 30px;
+   
+       line-height: 40px;
+   
+   }
+   
+   blockquote::after {
+   
+    content: close-quote;
+   
+    right: 30px;
+   
+       line-height: 30px;
+   
+   }
