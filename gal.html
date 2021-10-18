@@ -7,27 +7,26 @@
     <title>tidak ada foto</title>
 </head>
 <body bgcolor="pink">
-    <center>
-        <h2>Otomatis Close Window<br>
-        Setelah 10 detik dengan Javascript <br>
-        <a href="index.html">Suckittrees.com</a></h2>
-        <p style="text-align:center">Segera Cek Email Anda Untuk Melakukan Konfirmasi.<br/>
-        This window will close automatically within <span id="counter">10</span>detik(s).</p>
-        <script type="text/javascript">
-        function countdown() {
-         var i = document.getElementById('counter');
-         i.innerHTML = parseInt(i.innerHTML)-1;
-        if (parseInt(i.innerHTML)<=0) {
-         window.close();
-         }
-        }
-        
-        setInterval(function(){ countdown(); },1000);
-        
-        </script>
+    
 <hr /></br></br></br></br></br></br></br></br></br>
-    <h2 align="center" style="color: rgb(69, 1, 255);">belum ada foto untuk di tampilkan </br><a href="index.html"> kembali ke tampilkan awal</a></h2>
-</br></br></br></br></br></br></br></br></br></br>
+    <h1 align="center" style="color: rgb(69, 1, 255);">belum ada foto untuk di tampilkan</h1></br>
+        <center>
+            <h2>Otomatis kembali<br>
+            Setelah 10 detik  <br>
+            <h2 style="text-align:center"><span id="counter">10 </span> detik.</h2>
+            <script type="text/javascript">
+            function countdown() {
+             var i = document.getElementById('counter');
+             i.innerHTML = parseInt(i.innerHTML)-1;
+            if (parseInt(i.innerHTML)<=0) {
+             window.close();
+             }
+            }
+            
+            setInterval(function(){ countdown(); },1000);
+            
+            </script>
+</br></br></br></br>
     <hr />
 </body>
 </html>
