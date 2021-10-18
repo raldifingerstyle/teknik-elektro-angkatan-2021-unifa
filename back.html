@@ -30,11 +30,19 @@
 <body bgcolor="yellow">
 <h1 align="center">maaf developer tidak menemukan</br>
 link soal media untuk akun ini!!!</h1></br>
-<h2 align="center">silakan klik tombol di bawah untuk kembali ke tampilan awal</h2>
-<br />
 <center>
-<a href="index.html">
-<button class="onmaibana"><i class="fa fa-eye"></i> back</button></a>
-
-</center>
+  <h2>Otomatis kembali<br>
+<h2 style="text-align:center">Setelah <span id="counter">10 </span> detik.</h2>
+  <script type="text/javascript">
+  function countdown() {
+   var i = document.getElementById('counter');
+   i.innerHTML = parseInt(i.innerHTML)-1;
+  if (parseInt(i.innerHTML)<=0) {
+   window.close();
+   }
+  }
+  
+  setInterval(function(){ countdown(); },1000);
+  
+  </script>
 </body>
