@@ -8,8 +8,8 @@ body {
         display: block;
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-        margin-left: 400px;
-        margin-right: 400px;
+        margin-left: 100px;
+        margin-right: 100px;
         border-style: inset;
         border-width: 1px;
         }
@@ -18,13 +18,13 @@ body {
 
 blockquote {
 
-    max-width: 500px;
+    max-width: 150px;
    
     margin: 0;
    
     width: 100%;
    
-    padding: 40px 70px;
+    padding: 60px 60px;
    
     background: #141414;
     opacity: 0.5;
