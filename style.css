@@ -1,5 +1,5 @@
 body {
-    background: url(img/bg.jpeg) no-repeat;
+    background: url(img/bg2.jpg) no-repeat;
     background-size: 100% 100%;
     background-attachment:fixed;
     }
@@ -27,7 +27,7 @@ blockquote {
     padding: 60px 60px;
    
     background: #141414;
-    opacity: 0.6;
+    opacity: 0.8;
    
       
    
