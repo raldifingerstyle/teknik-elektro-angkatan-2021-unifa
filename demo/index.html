@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>MediaElement.js 4.2.x - audio/video unification library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="../build/mediaelementplayer.css">
+
+    <style>
+
+        html, body {
+            overflow-x: hidden;
+        }
+
+        #container {
+            padding: 0 20px 50px;
+        }
+        .error {
+            color: red;
+        }
+        a {
+            word-wrap: break-word;
+        }
+
+        code {
+            font-size: 0.8em;
+        }
+
+        #player2-container .mejs__time-buffering, #player2-container .mejs__time-current, #player2-container .mejs__time-handle,
+        #player2-container .mejs__time-loaded, #player2-container .mejs__time-hovered, #player2-container .mejs__time-marker, #player2-container .mejs__time-total {
+            height: 2px;
+        }
+
+        #player2-container .mejs__time-total {
+            margin-top: 9px;
+        }
+        #player2-container .mejs__time-handle {
+            left: -5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #000000;
+            top: -5px;
+            cursor: pointer;
+            display: block;
+            position: absolute;
+            z-index: 2;
+            border: none;
+        }
+        #player2-container .mejs__time-handle-content {
+            top: 0;
+            left: 0;
+            width: 12px;
+            height: 12px;
+        }
+    </style>
+</head>
+
+<body bgcolor="black">
+    <div id="container">
+        <section>
+        <hr>
+                <div class="media-wrapper">
+        <h2 style="color: aliceblue;">video 1</h2>
+                <video id="player1" width="640" height="360" style="max-width:100%;" poster="motivasi1.jpg" preload="none" controls playsinline webkit-playsinline>
+                    <source src="DJ BREAKDUTCH MATAME X DUA KURSI NEW 2K21 FULL BASS.mp4" type="video/mp4">
+               </video>
+            </div>
+            <br/>
+            <hr>
+            <div class="media-wrapper">
+                <video id="player1" width="640" height="360" style="max-width:100%;" poster="motivasi1.jpg" preload="none" controls playsinline webkit-playsinline>
+                    <source src="DJ JANG GANGGU X BEGGIN TIK TOD FULL BASS 2K21.mp4" type="video/mp4">
+               </video>
+            </div>
+            <br>
+            <hr>
+            </div>
+        </div>
+</body>
+</html>
